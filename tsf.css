@@ -1,0 +1,136 @@
+body{
+	background-image: url(bank1.jpg);
+	background-size: 1700px 800px;
+	background-attachment: fixed;
+	
+	/*height: 360px;
+	width: 200px;*/
+	display: flex;
+	
+
+}
+/*.a{
+	background-color: lightcyan;
+}*/
+
+#main{
+	/*background-color: white;*/
+	top: 0px;
+	padding-top: 0px;
+	margin: 0px;
+	width: 1150px;
+	font-style: Showcard Gothic;
+	text-align: center;
+	height: 45px;
+	font-size: 3.1rem;
+	text-shadow: 3px 2px deeppink;
+	border-radius: 5px;
+	float: left;
+	border-top: 0px;
+	background-attachment: fixed;
+	padding-left: 30px;
+	color: white;
+	background-repeat: no-repeat;
+}
+#main-footer{
+	background-color: darkcyan;
+	color: #ffffff;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	font-size: 1.4rem;
+}
+
+
+hgroup{
+	text-align: left;
+	font-family: verdana;
+	padding-left: 15px;
+	margin-left: 30px;
+	color: white;
+	border-left: 10px solid #00C8B7;
+}
+/*body{
+	background-color: orange;
+}*/
+h1{
+	font-size: 1.93rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+h3{
+	font-size: 1.16rem;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.b{
+	position: absolute;
+	top: 45%;
+	left:40%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 23px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	
+	background-color: #ccc;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.c{
+	background-color: #ccc;
+
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	color: black;
+	font-size: 23px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 0%;
+}
+
+/*.b:hover{
+	background-color:darkcyan;
+	color: pink;
+	opacity: 1.0;
+	width: 20%;
+	height: 10%;
+	font-size: 1.7rem;
+}
+.c:hover{
+	background-color: darkcyan;
+  color: white;
+	opacity: 1.0;
+	width: 20%;
+	height: 10%;
+	font-size: 1.7rem;
+}*/
+.nav :hover{
+
+	background-color:darkcyan;
+	color: white;
+	opacity: 1.0;
+	width: 20%;
+	height: 10%;
+	font-size: 1.7rem;
+
+}
